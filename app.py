@@ -6,7 +6,7 @@ import joblib
 import streamlit as st
 
 # Load the data
-df = pd.read_csv('/kaggle/input/tour-pack/tour_packages.csv')
+df = pd.read_csv('/Natdin/Try/tour_packages.csv')
 
 # Extract the features and target
 X = df[['Place', 'Month', 'Traveler', 'Agency', 'PackageType']]
